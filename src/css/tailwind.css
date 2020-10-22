@@ -1,10 +1,14 @@
 @tailwind base;
 
 a {
-  @apply text-primary;
+  @apply text-blue-dark;
 }
 a:hover {
-  @apply text-primary-darker;
+  @apply text-blue-dark;
+}
+
+.bg-gold {
+  background-color: #ECC53C;
 }
 
 @tailwind components;
